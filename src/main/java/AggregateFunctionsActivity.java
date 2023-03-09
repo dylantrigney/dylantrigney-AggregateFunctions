@@ -51,7 +51,7 @@ public class AggregateFunctionsActivity {
          * Note: the output should not contain any other info but the sum.
          */
         String sql = FileUtil.parseSQLFile("problem1.sql");
-
+        
         double average = 0.0;
         try {
             Connection connection = ConnectionUtil.getConnection();
@@ -75,6 +75,7 @@ public class AggregateFunctionsActivity {
          */
         String sql = FileUtil.parseSQLFile("problem2.sql");
 
+        
 
         int count = 0;
         try {
